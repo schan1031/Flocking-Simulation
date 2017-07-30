@@ -12,9 +12,9 @@ In this simulation, users will be able to access the following features:
 - Option to add more or less birds.
 - Slider bars to adjust the parameters governing the flocking behavior, to observe changes in flocking behavior.
 - Ability to pause and start simulation.
+- Ability to select a bird to track its movement and see the velocity and behavior.
 
 Bonus Features:
-- Ability to select a bird to track its movement and see the velocity and behavior.
 - External predator factor applying to flocking, to see how a flock responds to danger.
 - Custom graphics for the birds.
 
@@ -45,6 +45,25 @@ The following design outlines the structure of the simulation.
 
 ## Timeline
 
-**Day 1** - Setup file environment, webpack, and outline the 3 structures. Begin defining the mathematical equation to create the simulation.
+**Day 1**
+- Setup file environment, webpack
+- Design and outline 3 structure files
+- Begin defining the mathematical equations of the birds
 
-**Day 2** - 
+**Day 2**
+- Get basic movement on the Canvas of a bird.
+- Complete basic equations and interactivity between the birds.
+
+**Day 3**
+- Put the pieces together, birds flocking in the simulation
+- Add slider bars to adjust weights of different variables
+
+**Day 4**
+- Styling, buttons to add/remove birds
+- Simulation start and stop
+- Individual bird selection
+
+### Bonus
+
+- External predator factor into the mathematical behavior
+- Custom styling/animation on the bird object, improved graphics
