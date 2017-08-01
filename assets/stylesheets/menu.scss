@@ -1,0 +1,32 @@
+.canvas {
+  position: absolute;
+  background: lightgrey;
+  z-index: 0;
+  top: 0;
+  left: 0;
+}
+
+.head {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  z-index: 100;
+  left: 40px;
+  top: 40px;
+  width: 350px;
+  height: 600px;
+  background: rgba(200,200,200,0.7);
+  border: 2px solid black;
+  text-align: center;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 200px;
+}
+
+h2 {
+  margin-bottom: 0px;
+}

@@ -3,9 +3,49 @@
   <head>
     <meta charset="utf-8">
     <title></title>
+    <link rel="stylesheet" href="./assets/stylesheets/menu.scss">
+
   </head>
   <body>
-    <canvas id="game-canvas"></canvas>
+    <div class="head">
+      <div class="options">
+      <h2>Flocking Simulation</h2>
+        <span class="options">
+          Max Birds
+          <input type="range" name="birds" min='20' max='300'>
+          <input type="submit" name="" value="Submit">
+        </span>
+        <span class="options">
+          Neighbor Radius
+          <input type="range" name="neighborRadius" min='30' max='150'>
+          <input type="submit" name="" value="Submit">
+        </span>
+        <span class="options">
+          Max Velocity
+          <input type="range" name="velocity" min='2' max='10'>
+          <input type="submit" name="" value="Submit">
+        </span>
+        <span class="options">
+          Cohesion
+          <input type="range" name="cohesionFactor" min='0' max='100'>
+          <input type="submit" name="" value="Submit">
+        </span>
+        <span class="options">
+          Alignment
+          <input type="range" name="alignmentFactor" min='0' max='100'>
+          <input type="submit" name="" value="Submit">
+        </span>
+        <span class="options">
+          Separation
+          <input type="range" name="sepFactor" min='0' max='100'>
+          <input type="submit" name="" value="Submit">
+        </span>
+      </div>
+    </div>
+
+    <canvas class='canvas' id="game-canvas"></canvas>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
     <script type="application/javascript" src="./lib/bundle.js"></script>
   </body>
 </html>
