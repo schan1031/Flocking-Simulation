@@ -25,22 +25,22 @@
         </span>
         <span class="options">
           Cohesion
-          <input class='cohesion' type="range" name="cohesionFactor" min='0' max='100'>
+          <input id='cohesion' type="range" value='1' min='0' max='10' step='0.1'>
         </span>
         <span class="options">
           Alignment
-          <input class='alignment' type="range" name="alignmentFactor" min='0' max='100'>
+          <input id='alignment' type="range"min='0' max='10' step='0.1'>
         </span>
         <span class="options">
           Separation
-          <input type="range" name="sepFactor" min='0' max='100'>
+          <input id='separation' type="range" min='0' max='10' step='0.1'>
         </span>
       </div>
     </div>
 
     <canvas class='canvas' id="game-canvas"></canvas>
 
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
     <script type="application/javascript" src="./lib/bundle.js"></script>
   </body>
 </html>
