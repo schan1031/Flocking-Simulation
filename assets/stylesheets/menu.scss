@@ -13,24 +13,31 @@
   z-index: 100;
   left: 40px;
   top: 40px;
-  width: 350px;
+  width: 400px;
   height: 600px;
   background: rgba(200,200,200,0.7);
   border: 2px solid black;
   text-align: center;
+  font-family: Helvetica, Arial, sans-serif;
 }
 
 .options {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
-  width: 200px;
+  width: 300px;
 }
 
 h2 {
   margin-bottom: 0px;
+  // width: 400px;
+  // font-size: 18px;
 }
 
 input {
   outline: none;
+}
+
+input[type='range']::-webkit-slider-thumb {
+	cursor: pointer;
 }
