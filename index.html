@@ -8,29 +8,31 @@
   </head>
   <body>
     <div class="head">
-      <div class="options">
-      <h2>Flocking Simulation</h2>
-        <span class="options">
+      <div class="header">
+        <h2>Flocking Simulation</h2>
+      </div>
+      <div id='options' class="options">
+        <span class="option">
           Max Birds
           <input id='numbirds' type="range" name="birds" min='20' max='300'>
         </span>
-        <span class="options">
+        <span class="option">
           Neighbor Radius
           <input id='radius' type="range" name="neighborRadius" min='0' max='100'>
         </span>
-        <span class="options">
+        <span class="option">
           Max Velocity
-          <input id='velocity' type="range" name="velocity" min='2' max='10'>
+          <input id='velocity' type="range" name="velocity" min='2' max='10' step='0.2'>
         </span>
-        <span class="options">
+        <span class="option">
           Cohesion
           <input id='cohesion' type="range" value='1' min='0' max='10' step='0.1'>
         </span>
-        <span class="options">
+        <span class="option">
           Alignment
           <input id='alignment' type="range"min='0' max='10' step='0.1'>
         </span>
-        <span class="options">
+        <span class="option">
           Separation
           <input id='separation' type="range" min='0' max='10' step='0.1'>
         </span>

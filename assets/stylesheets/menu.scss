@@ -8,13 +8,15 @@
 
 .head {
   display: flex;
-  justify-content: center;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
   position: absolute;
   z-index: 100;
   left: 40px;
   top: 40px;
   width: 400px;
-  height: 600px;
+  // height: 600px;
   background: rgba(200,200,200,0.7);
   border: 2px solid black;
   text-align: center;
@@ -26,12 +28,18 @@
   flex-direction: column;
   justify-content: space-around;
   width: 300px;
+  height: 500px;
 }
 
-h2 {
-  margin-bottom: 0px;
-  // width: 400px;
-  // font-size: 18px;
+.option {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.header {
+  cursor: pointer;
+  width: 399px;
 }
 
 input {
