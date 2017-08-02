@@ -12,9 +12,10 @@ In this simulation, users will be able to access the following features:
 - Option to add more or less birds.
 - Slider bars to adjust the parameters governing the flocking behavior, to observe changes in flocking behavior.
 - Ability to pause and start simulation.
-- Ability to select a bird to track its movement and see the velocity and behavior.
+- Add third dimension Z-Axis to flocking equations.
 
 Bonus Features:
+- Ability to select a bird to track its movement and see the velocity and behavior.
 - External predator factor applying to flocking, to see how a flock responds to danger.
 - Custom graphics for the birds.
 
