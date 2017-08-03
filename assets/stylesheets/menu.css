@@ -33,12 +33,32 @@
   font-family: Helvetica, Arial, sans-serif;
 }
 
+.infobar {
+  text-align: center;
+  z-index: 50;
+  position: absolute;
+  top: 40px;
+  right: 40px;
+  width: 300px;
+  background: rgba(200,200,200,0.7);
+  border: 2px solid black;
+}
+
+.helpheader {
+  cursor:  pointer;
+}
+
 .options {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
   width: 300px;
   height: 500px;
+}
+
+.helptext {
+  text-align: left;
+  padding: 10px;
 }
 
 .option {
