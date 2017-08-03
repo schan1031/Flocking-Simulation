@@ -6,6 +6,16 @@
   left: 0;
 }
 
+.pause {
+  position: absolute;
+  z-index: 50;
+  top: 50px;
+  left: 50vw;
+  font-family: Helvetica, Arial, sans-serif;
+  /*background: rgba(200,200,200,0.7);*/
+  /*border: 2px solid black;*/
+}
+
 .head {
   display: flex;
   flex-direction: column;
