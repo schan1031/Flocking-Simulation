@@ -18,7 +18,6 @@ Bonus Features:
 - Add bird sprite animation.
 - Ability to select a bird to track its movement and see the velocity and behavior.
 - External predator factor applying to flocking, to see how a flock responds to danger.
-- Custom graphics for the birds.
 
 ## Wireframe
 
