@@ -6,9 +6,13 @@ See this simulation live at [Flocking Simulation](https://schan1031.github.io/Fl
 
 Flocking is a behavioral phenomenon of birds, with similar parallels in the grouping behavior of fish and swarming of insects. Flocking can be simulated based on mathematical principals applied to each and every bird. There are no lead birds, only a set of behavioral rules which apply equally to every bird in the flock.
 
+![flock](./assets/images/flock.png)
+
 ## Features
 
 This simulation allows for customizing the parameters controlling the birds. Users can adjust the number of birds, velocity of birds, neighbor radius, and the flocking parameters which define the behavior of the birds, explained below. In addition, the simulation may be paused by clicking anywhere on the canvas.
+
+![menu](./assets/images/menu.png)
 
 ## Simulation
 
